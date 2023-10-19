@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <img src="./im.jpg" width="350px" height="500px" alt="Image">
+
+    <picture>
+        <source media="(min-width: 600px)" width="350px" height="500px"srcset="./ig.jpg">
+        <source media="(min-width: 400px)" width="350px" height="500px"srcset="./ig.jpg">
+        <img src="./img.jpg" alt="no Image">
+    </picture> -->
+
+    <!-- image map generator -->
+    
+<img src="img.jpg" width="350px" height="500px" usemap="#image-map">
+
+<map name="image-map">
+    <area onclick="one()" target="" alt="" title="" href="" coords="2193,3592,480" shape="circle">
+    <area  onclick="two()" target="" alt="" title="" href="" coords="1232,1160,1343" shape="circle">
+</map>
+<script>
+    function one(){
+        alert("Clicked one");
+    }
+    function two(){
+        alert("Clicked two");
+    }
+</script>
+</body>
+</html>
